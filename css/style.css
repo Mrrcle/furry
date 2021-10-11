@@ -1,0 +1,180 @@
+.mw-1200 {
+  max-width: 1200px;
+}
+
+.bg-orange {
+  background-color: #f08222;
+}
+
+#logo {
+  height: 43px;
+}
+
+.hero {
+  background-color: black;
+  padding: 48px 2%;
+}
+
+#hero-img {
+  max-height: 436px;
+}
+
+.hero-content {
+  max-width: 1186px;
+  margin: 0 auto;
+}
+
+.hero-content p {
+  color: white;
+  font-size: 15px;
+  line-height: 23.8px;
+}
+
+.hero-content button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 6px 20px;
+  border: 2px solid;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.hero-content button:hover {
+  background-color: #333333;
+  border: 2px solid #333333;
+  padding: 6px 28px;
+}
+
+.hero-content button::after {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  content: '';
+  background-image: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-chevron-right" viewBox="0 0 16 16"><path stroke-width="2px" stroke="white" fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>');
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+  display: inline-block;
+  vertical-align: -.125em;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  width: 16px;
+  height: 16px;
+  opacity: 0;
+  transition: 0.2s ease all;
+  padding: 8px
+}
+
+.hero-content button:hover::after {
+  opacity: 1;
+  transform: translate(4px -50%);
+}
+
+#dumb-pic {
+  max-width: 320px;
+  margin-bottom: 28px;
+}
+
+.index-icons {
+  color: #f08222;
+  font-size: 64px;
+  padding: 16px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#index-scroll {
+  min-height: 400px;
+}
+
+#index-scroll h5 {
+  font-weight: normal;
+}
+
+#index-scroll p {
+  font-size: 14px;
+}
+
+#index-scroll span {
+  display: block;
+  color: #f08222;
+  font-size: 14px;
+}
+
+#index-img {
+  background-image: url("/img/furrypic.jpg");
+  min-height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.arrows {
+  color: white;
+  font-size: 64px;
+  text-shadow: 1px 1px 2px black;
+}
+
+#left-arrow {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#right-arrow {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#dot-nav {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#dot-nav span {
+  font-size: 32px;
+  color: white;
+  opacity: .5;
+}
+
+#dot-nav span.active {
+  opacity: 1;
+}
+
+#wrap-up {
+  color: white;
+  background-color: #f08222;
+  padding: 42px 2%;
+
+}
+
+#wrap-up i {
+  font-size: 96px;
+}
+
+#wrap-up .d-flex > * {
+  margin-bottom: 32px;
+}
+
+#wrap-up img {
+  max-height: 100px;
+}
+
+#wrap-up p {
+  max-width: 1096px;
+  text-align: center;
+}
